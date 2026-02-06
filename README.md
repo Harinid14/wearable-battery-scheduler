@@ -26,8 +26,8 @@ This solution uses a **Greedy Algorithm** to minimize time.
 
 | Check | Duration and Drain Rate | Logic |
 | :--- | :--- | :--- |
-| **Task** | 10.0 min, 12.o mAh/m = **120 mAh** | The task requires 120 units. |
-| **Max Capacity** | **100 mAh** | The "tank" only holds 100 units. |
+| **Task** | 10.0 min, 12.0 mAh/m = **120 mAh** | The task requires 120 units. |
+| **Max Capacity** | **100 mAh** | The "device" only holds 100 units. |
 | **Result** | **-1.0** | Impossible: Task > Capacity. |
 
 **Why this matters:** This prevents the system from entering an infinite loop or attempting a task that will lead to a hard shutdown mid-execution.
