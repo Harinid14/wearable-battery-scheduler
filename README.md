@@ -24,9 +24,9 @@ This solution uses a **Greedy Algorithm** to minimize time.
 ## ⚠️ The "Impossible" Scenario (Result: -1.0)
 **Inputs:** Capacity: `100` | Initial: `40` | Task: `10, 12`
 
-| Check | Calculation | Logic |
+| Check | Duration and Drain Rate | Logic |
 | :--- | :--- | :--- |
-| **Energy Needed** | 10s × 12 mAh/s = **120 mAh** | The task requires 120 units. |
+| **Task** | 10.0 min, 12.o mAh/m = **120 mAh** | The task requires 120 units. |
 | **Max Capacity** | **100 mAh** | The "tank" only holds 100 units. |
 | **Result** | **-1.0** | Impossible: Task > Capacity. |
 
