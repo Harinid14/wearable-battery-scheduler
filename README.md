@@ -36,4 +36,4 @@ This solution uses a **Greedy Algorithm** to minimize time.
 1. Ensure you have **Python 3** installed.
 2. Run the script:
    ```bash
-   python solution.py
+   python main.py
