@@ -14,11 +14,11 @@ This solution uses a **Greedy Algorithm** to minimize time.
 ## 📊 Demo Scenario (The 60-Minute Result)
 **Inputs:** Capacity: `100` | Initial: `40` | Charge Rate: `1`
 
-| Phase | Duration | Action | Battery Change |
+| Phase | Duration and Drain Rate | Action | Battery Change |
 | :--- | :--- | :--- | :--- |
-| **Task 1** | 10.0 min | Running Movie | 40% → 10% |
+| **Task 1** | 10.0 min, 3.0 mAh/m | Running Movie | 40% → 10% |
 | **Idle** | 40.0 min | **Charging Gap** | 10% → 50% |
-| **Task 2** | 10.0 min | Running Meeting | 50% → 0% |
+| **Task 2** | 10.0 min, 5.0 mAh/m | Running Meeting | 50% → 0% |
 | **TOTAL** | **60.0 min** | | |
 
 ## ⚠️ The "Impossible" Scenario (Result: -1.0)
