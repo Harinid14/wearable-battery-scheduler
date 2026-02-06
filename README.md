@@ -21,7 +21,16 @@ This solution uses a **Greedy Algorithm** to minimize time.
 | **Task 2** | 10.0 min | Running Meeting | 50% → 0% |
 | **TOTAL** | **60.0 min** | | |
 
----
+## ⚠️ The "Impossible" Scenario (Result: -1.0)
+**Inputs:** Capacity: `100` | Initial: `40` | Task: `10, 12`
+
+| Check | Calculation | Logic |
+| :--- | :--- | :--- |
+| **Energy Needed** | 10s × 12 mAh/s = **120 mAh** | The task requires 120 units. |
+| **Max Capacity** | **100 mAh** | The "tank" only holds 100 units. |
+| **Result** | **-1.0** | Impossible: Task > Capacity. |
+
+**Why this matters:** This prevents the system from entering an infinite loop or attempting a task that will lead to a hard shutdown mid-execution.
 
 ## 🛠️ How to Run
 1. Ensure you have **Python 3** installed.
